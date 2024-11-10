@@ -1,0 +1,36 @@
+
+
+/* ------- */
+.list-menu{
+    width: 15%;
+    padding: 2%;
+
+}
+
+#right_main ul#mainFeatures {
+    height:100px;
+    width:300px;
+    overflow:hidden;
+    margin-left:10px;
+}
+#mainFeatures li {
+    font-weight:bold;
+    font-size:15px;
+    padding:3px;
+}
+#mainFeatures li#light {
+    list-style-image:url(../Images/Light.svg);
+    list-style-position:outside;
+    transform: translatex(8px);
+    /* background-color: blue; */
+}
+#mainFeatures li#dark {
+    list-style-image:url(../Images/Dark.svg);
+    list-style-position:outside;
+    transform: translatex(8px);
+}
+#mainFeatures li#auto {
+    list-style-image:url(../Images/Auto.svg);
+    list-style-position:outside;
+    transform: translatex(8px);
+}

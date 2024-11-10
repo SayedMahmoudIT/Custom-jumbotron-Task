@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="container p-4">
+
+  <div class="d-flex gap-3">
+    <a href="https://getbootstrap.com/"><img src="./Images/bicon.png" alt="" width="50"></a>
+    <a href="https://getbootstrap.com/" class="link-dark under link-underline-opacity-0">
+      <p class="fs-5 fw-bold p-1">Jumbotron example</p>
+    </a>
+  </div>
+
+  <hr>
+
+  <div class="bg-secondary-subtle p-5 rounded-4">
+    <h1>Custom jumbotron</h1>
+    <p class="lead">Using a series of utilities, you can create this jumbotron, just like the one in previous versions
+      of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+    <button class="btn btn-primary">Example Button</button>
+  </div>
+
+
+  <div class="d-flex gap-4  mt-4">
+    <div class="text-bg-dark p-5  rounded-4 w-50">
+      <h2>Change the background</h2>
+      <p class="lead">Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look.
+        Then, mix and match with additional component themes and more.</p>
+      <button class="btn btn-dark border-light">Example Button</button>
+    </div>
+
+    <div class="bg-secondary-subtle p-5 rounded-4 w-50">
+      <h2>Add borders</h2>
+      <p class="lead">Or, keep it light and add a border for some added definition to the boundaries of your content. Be
+        sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's
+        content for equal-height.</p>
+      <button class="btn btn-secondary-subtle border-dark-subtle text-secondary">Example Button</button>
+    </div>
+  </div>
+
+
+  <!--
+      <div id="right_main" class="rounded-3 bg-body-secondary list-menu">
+        <ul id="mainFeatures">
+          <li id="light">Light</li>
+          <li id="dark">Dark</li>
+          <li id="auto">Auto</li>
+        </ul>
+      </div> -->
+
+   <!-- ------------- -->
+
+  <hr class="mb-3">
+
+  <p>© 2024</p>
+
+  <!-- -------------- -->
+
+  <div class="dropdown text-end fixed-bottom  mb-3">
+
+    <button type="button" class="btn btn-outline-secondary btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+      <img src="./Images/Light.svg" alt="">
+    </button>
+
+    <ul class="dropdown-menu rounded-3 bg-body-secondary list-menu text-start link-primary" id="mainFeatures">
+      <li id="light"><a class="dropdown-item" href="#">Light</a></li>
+      <li id="dark"><a class="dropdown-item" href="#">Dark</a></li>
+      <li id="auto"><a class="dropdown-item" href="#">Auto</a></li>
+    </ul>
+
+  </div>
+
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
